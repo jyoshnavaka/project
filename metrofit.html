@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+        }
+        .container{
+            display: flex;
+            flex-wrap:wrap;
+            width: 100%;
+            height: auto;
+            gap: 1px;
+        }
+        .subcon{
+            width: auto;
+            height: auto;
+            display: inline-block;
+        }
+       
+        .box-img{
+            width: 485px;
+            height:auto;
+        }
+        @media screen and (max-width:508){
+            .subcon{
+                width:100%;
+                height: auto;
+            }
+            
+        }
+        .navbar{
+            width:100%;
+            height:auto;
+            display: flex;
+            text-align: center;
+        }
+        .subnav {
+            display: inline-block;
+            width: 485px;
+            height: 70px;
+            text-align: center;
+            gap: 1px;
+            
+        }
+        .subnavdiv{
+            display: inline-block;
+            width:239px;
+            height: 70px;
+            font-weight: 500;
+            font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+            gap: 1px;
+            background-color: rgb(200, 200, 200);
+            font-size: 18px;
+        }
+        .a1{
+            display: inline-block;
+            width: 239px;
+            height: 70px;
+            align-content: center;
+    
+            color:#6c6c6c;
+        }
+        .a1:hover{
+            background-color: #8f8e8e;
+            color: white;
+        }
+        .nav1{
+            width: 100%;
+            height: 500px;
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .subnav1{
+            width:25%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+       #li{
+        margin-bottom: 15px;
+        border: 1px solid #0264cf;
+        height: 83px;
+       }
+       .li{
+        display: inline-block;
+        height:100%;
+        width:77%;
+        text-align:start;
+     padding-top: 30px;
+     padding-left: 10px;
+        background-color: white;
+        color:#0264cf;
+        float: right;
+       }
+       .icons{
+        top: 0px;
+        height: 100%;
+        width:83px;
+       text-align: center;
+       align-content: center;
+        color: white;
+        background-color: #0264cf;
+        font-size: 2rem;
+       }
+       .subnav2{
+        width:70% ;
+        height:475px;
+        display: flex;
+        border: 1px solid #0264cf;
+        justify-content: space-between;
+        align-items: center;
+       }
+       .block{
+        display: flex;
+        line-height: 2.5rem;
+        justify-content: space-between;
+        margin-top: 100px;
+        overflow: auto;
+       }
+       .nav-img{
+        float: left;
+        width: 50%;
+       }
+       .list2{
+        float: left;
+    text-align: center;
+    list-style: none;
+    padding-left:15px;
+    padding-right: 15px;
+    color: #0264cf;
+       }
+       .ul2{
+        font-size: 1.4rem;
+        padding: 0;
+       overflow: auto;
+       max-width: 100%
+       }
+       .nav3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .icons2{
+        color:white;
+        background-color: #0264cf;
+       justify-content: center;
+       align-content: center;
+       text-align: center;
+        font-size: 2rem;
+        width: 100%;
+        height: 100%;
+        
+       }
+       .a{
+        display: inline-block;
+        width:50px;
+        height: 50px;
+        margin-left:15px ;
+        margin-right: 15px;
+       }
+    </style>
+</head>
+<body>
+    <div class= container>
+        <div class="subcon">
+            <div class="box-img"><img src="./img-21-01.jpg" style="width: 100%; height: 100%;"></div>
+           <div class="box-img" ><img src="./img-11-03.jpg"  style="width: 50%; height: 100%;"><img src="./img-11-04.jpg"style="width: 50%; height: 100%;">
+           </div>
+           <div class="box-img"><img src="./img-21-04.jpg" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+        <div class="subcon">
+            <div class="box-img"><img src="./img-11-05.jpg" style="width: 50%; height: 100%;"><img src="./img-11-02.jpg" style="width: 50%; height: 100%;"></div>
+               <div  class="box-img"style="position: relative;">
+                <img src="./logo-bg.jpg" style="width: 100%; height: 100%; ">
+                <div  style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center;" class="fsize">
+                    <h1 style="color: #0264cf;font-size: 2.8rem;font-weight: 500;width: 100%;">METRO FIT</h1>
+                    <h1 style="color: #6c6c6c;font-weight: 500;font-size:1.4rem ">by templatemo</h1>
+                </div>
+              </div>
+              <div class="box-img"><img src="./img-11-01.jpg" style="width: 50%; height: 100%;"><img src="./img-11-06.jpg" style="width: 50%; height: 100%;"></div>
+        </div>
+        <div class="subcon">
+            <div class="box-img" ><img src="./img-21-02.jpg" style="width: 100%; height: 100%;"></div>
+            <div class="box-img"><img src="./img-11-07.jpg" style="width: 50%; height: 100%;"><img src="./img-11-08.jpg" style="width: 50%; height: 100%;"></div>
+            <div class="box-img"><img src="./img-21-03.jpg" style="width: 100%; height: 100%;"></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="subnav">
+           <div class="subnavdiv"><a class="a1">Home</a></div>
+            <div class="subnavdiv"><a class="a1">About</a></div>
+        </div>
+        <div class="subnav">
+           <div class="subnavdiv"> <a class="a1">Services</a></div>
+            <div class="subnavdiv"><a class="a1">Blog</a></div>
+        </div>
+        <div class="subnav" style="position: relative;">
+            <div class="subnavdiv"> <a class="a1">Contacts</a></div>
+             <div class="subnavdiv" ><a class="a1">&nbsp</a></div>
+         </div>
+        </div>
+    </div>
+    <div class="nav1" >
+        <div class="subnav1">
+            <ul style="list-style: none;flex-wrap: wrap;">
+                <li id="li"><i class="fa-solid fa-music icons" style="color: #0264cf;background-color: white;"></i><a style="color: white;background-color: #0264cf;" class="li">Tab Section First</a></li>
+                <li id="li"><i class="fa-solid fa-users icons"></i><a class="li">Second Tab Title</a></li>
+                <li id="li"><i class="fa-solid fa-heart icons"></i><a class="li">Third Section Tab</a></li>
+                <li id="li"><i class="fa-solid fa-microphone icons"></i><a class="li">Title Fourth Comes Up</a></li>
+                <li id="li"><i class="fa-solid fa-earth-americas icons"></i><a class="li">Fifth Title goes Here</a></li>
+            </ul>
+        </div>
+        <div class="subnav2" style="justify-content:space-around;">
+            <div style="display: inline-block;"><img src="./img-11-04.jpg" style="width:300px; height:300px"></div>
+            <div style="width:630px;height:300px;display: inline-block;text-align: justify;line-height: 2;">
+                <a style="margin-bottom: 10px; font-weight:100;">You can <strong>easily</strong> change<span style="color: #0264cf;"> Font Awesome icons</span> in HTML code.Feel free to modify and use this layout for websites,Nunc elementum enim nec justo ornare mollis.sed facilisiz uma vitae lectus maximus,scelerisque aliquet ligula cursus.</a>
+                <ul style="list-style: square inside url(./add_24dp_FILL0_wght400_GRAD0_opsz24.svg ); margin: 5px;font-weight:100;">
+                    <li>Vestibulum ullamcorper et lectus</li>
+                    <li>Done efficitur placer magna</li>
+                    <li>Praesent venenatis diam pellentesque</li>
+                    <li>Nunc consequat mulla vel ipsum</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <diV class="block" style="margin-top:50px;">
+        <div style="width: 460px; height: 400px;border: 1px solid #0264cf;">
+            <div style="margin: 20px;"><h1 style="color: #0264cf;font-size: 1.8rem;margin: 8px;">Etiam bibendum enim</h1>
+                <p ><em>Nam tortor lacus, fringilla nec quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</em></p><br>
+                <p>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</p>
+            </div></div>
+        <div  style="width: 460px; height: 400px;background-color: #0264cf;color: white;"><div style="margin: 20px;">
+            <h1 style="color:yellowgreen;font-size: 1.8rem;margin: 8px;">Quisque eu lorem</h1>
+        <p>Nam tortor lacus, fringilla nex quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</p><br>
+    <p>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</p>
+        </div></div>
+        <div style="width: 460px; height: 400px;border: 1px solid #0264cf;">
+          <div style="margin:20px;">  <h1 style="color: #0264cf;font-size: 1.8rem;margin: 8px;">Donec id quam vulputate</h1>
+            <p>Nam tortor lacus, fringilla nex quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</p><br>
+            <p><i>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</i></p></div>
+        </div>
+    </diV>
+    <div class="block" style="line-height: 2rem;">
+        <div style="width: 30%;height:400px;">
+            <img src="./img-11-01.jpg" class="nav-img">
+            <img src="./img-11-07.jpg" class="nav-img">
+            <img src="./img-11-08.jpg" class="nav-img">
+            <img src="./img-11-05.jpg"class="nav-img">
+        </div>
+        <div style="width: 70%;height: 440px;background-color: rgb(236, 234, 234);">
+            <div style="margin: 70px;">
+                <h1 style="color: #0264cf;font-size: 1.8rem;margin: 8px;">Lorem ipsum dolor sit amet</h1><br>
+                <p>Donec a suscipit turpis. Duis hendrerit risus arcu, et eleifend ipsum vaius vel. Nam tortor lacus, fringilla nec quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Title #0066CC | Text #333 | BG #F4F4F4</p><br>
+                <p>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus, sed posuere leo facilisis feugiat. Phasellus ac est sed lorem pretium tempus eleifend at nisl.</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="nav3">
+            <ul class="ul2">
+                <li class="list2"><a>Home</a></li>
+                <li class="list2"><a>About</a></li>
+                <li class="list2"><a>Service</a></li>
+                <li class="list2"><a>Blog</a></li>
+                <li class="list2"><a>Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav3" style="width: 100%;height: 100px;">
+           <div>
+            <a class="a"><i class="fa-brands fa-facebook-f icons2"></i></a>
+            <a class="a" ><i class="fa-brands fa-google-plus-g icons2"></i></a>
+            <a class="a"><i class="fa-brands fa-twitter icons2"></i></a>
+            <a class="a"><i class="fa-brands fa-behance icons2"></i></a>
+            <a class="a"><i class="fa-brands fa-linkedin-in icons2"></i></a>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

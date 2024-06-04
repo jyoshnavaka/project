@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 100px;
+            height: 200px;
+            border: 1px solid red;
+            object-fit: cover;
+            animation-name: imgs;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+           
+        }
+        @keyframes imgs{
+            0%{
+                object-position: left;
+            }
+            50%{
+                object-position: center ;
+            }
+            100%{
+                object-position: right;
+            }
+        }
+        div{
+            width:100px;
+            height: 100px;
+            background-image: linear-gradient(to top,violet,indigo,blue,green,yellow,orange,red);
+        }
+    </style>
+</head>
+<body>
+    <img src="./img-11-02.jpg" alt="">
+    <div>
+    
+    </div>
+</body>
+</html>
