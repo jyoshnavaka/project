@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Images</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<style>
+  .container ,.container2,.container3,.container4{
+    display: flex;
+    flex-direction: row;
+    gap: 1px; 
+  }
+
+  .container img{
+    width: 100%;
+    height: 250px;
+  }
+  .container2 a{
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+  }
+  .container2 a:hover{
+    background-color: rgb(135, 134, 134);
+    color: white;
+  }
+  .container4 div div{
+    display: inline-block;
+  }
+  .subnavdiv{
+            width: 50%;
+            display: inline-block;
+            height: 30px;
+            text-align: center;
+            margin-right:1px ;
+            gap:1px;
+            background-color: rgb(200, 200, 200);
+            
+        }
+
+  body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
+ 
+  span i{
+padding:15px;
+width:30px;
+height:30px;
+background-color:#0264cf;
+color:white;
+font-size: 2rem;
+  }
+  .li1{
+    border:1px solid #0264cf;
+    margin-bottom: 15px;
+    height: 100%;
+   
+  }
+  #div{
+    width: 35%;
+   
+   
+  }
+  @media (max-width: 600px) {
+    .container ,.container2,.container3,.container4,.container5{
+      width: 100%;
+      flex-direction: column;
+    }
+    .container .div1{
+      width: 95%;
+      height: 100%;
+    }
+    .container .div3{
+      width: 85%;
+      justify-content: center;
+     height: 300px;
+    }
+     .div2{
+      width: 100%;
+    }
+    .icons2{
+      padding-top:10px ;
+    }
+    #div{
+        width: 100%;
+        margin-left:5px;
+    }
+    #div2{
+        margin-top: 10px;
+        width:80%;
+        border: #0264cf 1px ;
+      
+    }
+  }
+  .div1{
+    width:750px;
+    height: 300px;
+    margin: 20px;
+    line-height: 2rem;
+  }
+  .nav-img{
+        float: left;
+        width: 50%;
+       }
+      .div2{
+        width: 30%;
+        margin: 10px;
+      }
+   .div3{
+    width: 250px; 
+    height:250px;
+     margin: 20px;
+     margin-left: 30px;
+    margin-top: 70px;
+   }   
+   .ul2{
+        font-size: 1.4rem;
+        padding: 0;
+       overflow: auto;
+       max-width: 100%
+       }
+       .nav3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .list2{
+        float: left;
+    text-align: center;
+    list-style: none;
+    padding-left:25px;
+    padding-right: 25px;
+    color: #0264cf;
+       }
+       .icons2{
+        color:white;
+        background-color: #0264cf;
+       justify-content: center;
+       align-content: center;
+       text-align: center;
+        font-size: 2rem;
+        width: 100%;
+        height: 100%;
+        
+       }
+       .a{
+        display: inline-block;
+        width:50px;
+        height: 50px;
+        margin-left:15px ;
+        margin-right: 15px;
+       }
+       
+       #div2{
+        width: 100%; 
+        height: 95%;
+        margin-right: 15px;
+       margin-left: 10px;
+            box-sizing: border-box; 
+        border: 1px solid #0264cf;text-align: justify;
+       }
+       
+</style>
+</head>
+<body>
+
+<div class="container" style="justify-content: center;">
+ <div> <img src="./img-21-01.jpg" alt="Image 1"></div>
+ <div style="display:flex"> <img src="./img-11-03.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-04.jpg" alt="Image 2" style="width: 50%;"></div>
+<div>  <img src="./img-21-04.jpg" alt="Image 3"></div>
+</div>
+<div class="container" style="justify-content: center;">
+  <div style="display:flex"> <img src="./img-11-05.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-02.jpg" alt="Image 2" style="width: 50%;"></div>
+  <div style="position: relative;">
+    <img src="./logo-bg.jpg" style="width: 100%; height: 100%; ">
+    <div  style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center;" class="fsize">
+        <h1 style="color: #0264cf;font-size: 2.8rem;font-weight: 500;width: 100%;">METRO FIT</h1>
+        <h1 style="color: #6c6c6c;font-weight: 500;font-size:1.4rem ">by templatemo</h1>
+    </div>
+  </div>
+  <div style="display:flex"> <img src="./img-11-01.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-06.jpg" alt="Image 2" style="width: 50%;"></div>
+ 
+ </div>
+ <div class="container" style="justify-content: center;">
+  <div> <img src="./img-21-02.jpg" alt="Image 1"></div>
+ <div style="display:flex"> <img src="./img-11-07.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-08.jpg" alt="Image 2" style="width: 50%;"></div>
+<div>  <img src="./img-21-03.jpg" alt="Image 3"></div>
+ </div>
+ <div class="container2" style="width: 99%; margin-left: 6px;" >
+<div style="display: flex; width: 100%;"><a class="subnavdiv" >Home</a><a class="subnavdiv">About</a></div>
+<div style="display: flex;width:100%"><a class="subnavdiv" >Services</a><a class="subnavdiv" >Blog</a></div>
+<div style="display: flex; width:100%"><a class="subnavdiv" >Contacts</a><a class="subnavdiv">&nbsp</a></div>
+ </div>
+<div class="container3" style="margin-top: 80px; justify-content: center; align-content: center;">
+  <div id="div" >
+    <ul style="list-style-type: none; padding-right:20px;width: 500; margin: 0;height: 16.5%;padding-left: 8px;">
+      <li  class="li1" style="background-color: #0264cf;color: white;"><span ><i class="fa-solid fa-music" style="background-color: white;color:#0264cf ;height: 53%;"></i></span><span style="width:75%; margin-left: 10px;padding-right: 10px;">Tab Section First</span></li>
+      <li class="li1"><span ><i class="fa-solid fa-users" style="height: 53%;"></i></span><span  style="width:75%;margin-left: 10px;padding-right: 10px;">Second Tab Title</span></li>
+      <li class="li1"><span ><i class="fa-solid fa-heart" style="height: 53%;"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Third Section Tab</span></li>
+      <li class="li1"><span ><i class="fa-solid fa-microphone" style="height: 53%;"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Title Fourth Comes Up</span></li>
+      <li class="li1" style="margin:0px ;"><span ><i class="fa-solid fa-earth-americas" style="height: 53%;"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Fifth Title goes Here</span></li>
+    </ul>
+  </div>
+  <div class="container " id="div2">
+    <div class="div3"><img src="./img-11-04.jpg" alt="Image 1" style="width: 100%; height: 100%; margin-left: 20px;"></div>
+    <div class="div1" style="margin-top: 60px;margin-right: 50px;">
+      <span style="width: 100%;">You can <strong>easily</strong> change<span style="color: #0264cf;"> Font Awesome icons</span> in HTML code.Feel free to modify and use this layout for websites,Nunc elementum enim nec justo ornare mollis.sed facilisiz uma vitae lectus maximus,
+      scelerisque aliquet ligula cursus.</span>
+      <ul style="list-style:square inside url(./add_24dp_FILL0_wght400_GRAD0_opsz24.svg );left: 0px;padding: 0;">
+        <li ><span >Vestibulum ullamcorper et lectus</span></li>
+        <li ><span >Done efficitur placer magna</span></li>
+        <li ><span >Praesent venenatis diam pellentesque</span></li>
+        <li ><span >Nunc consequat mulla vel ipsum</span></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div  class="container" style="line-height: 2rem; margin-top: 100px; justify-content: center;">
+  <div style="border-top: 2px  solid #0264cf;border-bottom: 2px  solid #0264cf;border-right: 1px  solid #0264cf;border-left: 1px  solid #0264cf; margin: 15px;">
+    <div style="margin: 30px;"><h1 style="color: #0264cf;font-size: 1.8rem;margin: 8px;font-weight: 500;">Etiam bibendum enim</h1>
+      <p ><em>Nam tortor lacus, fringilla nec quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</em></p><br>
+      <p>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</p>
+  </div>
+  </div>
+  <div style="background-color: #0264cf; color: white; margin: 15px;">
+  <div style="margin: 30px;">
+      <h1 style="color:rgb(155, 207, 52);font-size: 1.8rem;margin: 8px;font-weight: 500;">Quisque eu lorem</h1>
+  <p>Nam tortor lacus, fringilla nex quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</p><br>
+<p>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</p>
+  </div>
+  </div >
+  <div style="border: 1px solid rgb(199, 198, 198); margin: 15px;"><div style="margin:30px;">  <h1 style="font-size: 1.8rem;margin: 8px;font-weight: 500;">Donec id quam vulputate</h1>
+    <p style="color: #0264cf;">Nam tortor lacus, fringilla nex quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</p><br>
+    <p style="color: #0264cf;"><i>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</i></p></div>
+</div>
+</div>
+<div class="container5" style="display: flex; margin-top: 100px; margin-left: 5px;">
+  <div class="diV2">
+    <img src="./img-11-01.jpg" class="nav-img" width="250px" height="250px">
+    <img src="./img-11-07.jpg" class="nav-img" width="250px" height="250px">
+    <img src="./img-11-08.jpg" class="nav-img" width="250px" height="250px">
+    <img src="./img-11-05.jpg"class="nav-img" width="250px" height="250px">
+</div>
+<div style="background-color: rgb(251, 249, 245);margin-right: 5px;">
+  <div style="margin:50px;display: inline-block;font-size: 18px;line-height: 2.5rem;text-align: justify;">
+    <h1 style="color: #0264cf;font-size: 2rem;font-weight: 500;">Lorem ipsum dolor sit amet</h1>
+    <p style="align-items: center;">Donec a suscipit turpis. Duis hendrerit risus arcu, et eleifend ipsum vaius vel. Nam tortor lacus, fringilla nec quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Title #0066CC | Text #333 | BG #F4F4F4</p>
+    <p>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus, sed posuere leo facilisis feugiat. Phasellus ac est sed lorem pretium tempus eleifend at nisl.</p>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<div class="nav3">
+  <ul class="ul2">
+      <li class="list2"><a>Home</a></li>
+      <li class="list2"><a>About</a></li>
+      <li class="list2"><a>Service</a></li>
+      <li class="list2"><a>Blog</a></li>
+      <li class="list2"><a>Contact</a></li>
+  </ul>
+</div>
+<br>
+<br>
+<div class="nav3" style="width: 100%;height: 100px;">
+  <div>
+   <a class="a"><i class="fa-brands fa-facebook-f icons2"></i></a>
+   <a class="a" ><i class="fa-brands fa-google-plus-g icons2"></i></a>
+   <a class="a"><i class="fa-brands fa-twitter icons2"></i></a>
+   <a class="a"><i class="fa-brands fa-behance icons2"></i></a>
+   <a class="a"><i class="fa-brands fa-linkedin-in icons2"></i></a>
+  </div>
+</div>
+<br>
+<br>
+<div class="nav3" style="margin-bottom:50px ;">
+  <a style="font-weight: 200;font-size:  18px;color: #6c6c6c;">Copyright © 2016 Your Company | Design: <span style="color: #0264cf;">Templatemo</span></a>
+</div>
+</body>
+</html>
