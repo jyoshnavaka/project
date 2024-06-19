@@ -62,17 +62,23 @@ font-size: 2rem;
     height: 100%;
    
   }
+  #div{
+    width: 35%;
+   
+   
+  }
   @media (max-width: 600px) {
     .container ,.container2,.container3,.container4,.container5{
       width: 100%;
       flex-direction: column;
     }
     .container .div1{
-      width: 500px;
+      width: 95%;
       height: 100%;
     }
     .container .div3{
-      width: 95%;
+      width: 85%;
+      justify-content: center;
      height: 300px;
     }
      .div2{
@@ -80,6 +86,16 @@ font-size: 2rem;
     }
     .icons2{
       padding-top:10px ;
+    }
+    #div{
+        width: 100%;
+        margin-left:5px;
+    }
+    #div2{
+        margin-top: 10px;
+        width:80%;
+        border: #0264cf 1px ;
+      
     }
   }
   .div1{
@@ -100,6 +116,7 @@ font-size: 2rem;
     width: 250px; 
     height:250px;
      margin: 20px;
+     margin-left: 30px;
     margin-top: 70px;
    }   
    .ul2{
@@ -139,19 +156,26 @@ font-size: 2rem;
         margin-left:15px ;
         margin-right: 15px;
        }
-       .sub{
+       
+       #div2{
+        width: 100%; 
+        height: 95%;
+        margin-right: 15px;
+       margin-left: 10px;
+            box-sizing: border-box; 
         border: 1px solid #0264cf;text-align: justify;
        }
+       
 </style>
 </head>
 <body>
 
-<div class="container">
+<div class="container" style="justify-content: center;">
  <div> <img src="./img-21-01.jpg" alt="Image 1"></div>
  <div style="display:flex"> <img src="./img-11-03.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-04.jpg" alt="Image 2" style="width: 50%;"></div>
 <div>  <img src="./img-21-04.jpg" alt="Image 3"></div>
 </div>
-<div class="container">
+<div class="container" style="justify-content: center;">
   <div style="display:flex"> <img src="./img-11-05.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-02.jpg" alt="Image 2" style="width: 50%;"></div>
   <div style="position: relative;">
     <img src="./logo-bg.jpg" style="width: 100%; height: 100%; ">
@@ -163,28 +187,28 @@ font-size: 2rem;
   <div style="display:flex"> <img src="./img-11-01.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-06.jpg" alt="Image 2" style="width: 50%;"></div>
  
  </div>
- <div class="container">
+ <div class="container" style="justify-content: center;">
   <div> <img src="./img-21-02.jpg" alt="Image 1"></div>
  <div style="display:flex"> <img src="./img-11-07.jpg" alt="Image 2" style="width: 50%;" > <img src="./img-11-08.jpg" alt="Image 2" style="width: 50%;"></div>
 <div>  <img src="./img-21-03.jpg" alt="Image 3"></div>
  </div>
- <div class="container2" >
+ <div class="container2" style="width: 99%; margin-left: 6px;" >
 <div style="display: flex; width: 100%;"><a class="subnavdiv" >Home</a><a class="subnavdiv">About</a></div>
 <div style="display: flex;width:100%"><a class="subnavdiv" >Services</a><a class="subnavdiv" >Blog</a></div>
 <div style="display: flex; width:100%"><a class="subnavdiv" >Contacts</a><a class="subnavdiv">&nbsp</a></div>
  </div>
-<div class="container3" style="margin-top: 100px;">
-  <div >
-    <ul style="list-style-type: none; padding-right:50px;width: 500;">
-      <li  class="li1" style="background-color: #0264cf;color: white;"><span ><i class="fa-solid fa-music" style="background-color: white;color:#0264cf"></i></span><span style="width:75%; margin-left: 10px;padding-right: 10px;">Tab Section First</span></li>
-      <li class="li1"><span ><i class="fa-solid fa-users"></i></span><span  style="width:75%;margin-left: 10px;padding-right: 10px;">Second Tab Title</span></li>
-      <li class="li1"><span ><i class="fa-solid fa-heart"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Third Section Tab</span></li>
-      <li class="li1"><span ><i class="fa-solid fa-microphone"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Title Fourth Comes Up</span></li>
-      <li class="li1" style="margin:0px ;"><span ><i class="fa-solid fa-earth-americas"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Fifth Title goes Here</span></li>
+<div class="container3" style="margin-top: 80px; justify-content: center; align-content: center;">
+  <div id="div" >
+    <ul style="list-style-type: none; padding-right:20px;width: 500; margin: 0;height: 16.5%;padding-left: 8px;">
+      <li  class="li1" style="background-color: #0264cf;color: white;"><span ><i class="fa-solid fa-music" style="background-color: white;color:#0264cf ;height: 53%;"></i></span><span style="width:75%; margin-left: 10px;padding-right: 10px;">Tab Section First</span></li>
+      <li class="li1"><span ><i class="fa-solid fa-users" style="height: 53%;"></i></span><span  style="width:75%;margin-left: 10px;padding-right: 10px;">Second Tab Title</span></li>
+      <li class="li1"><span ><i class="fa-solid fa-heart" style="height: 53%;"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Third Section Tab</span></li>
+      <li class="li1"><span ><i class="fa-solid fa-microphone" style="height: 53%;"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Title Fourth Comes Up</span></li>
+      <li class="li1" style="margin:0px ;"><span ><i class="fa-solid fa-earth-americas" style="height: 53%;"></i></span><span style="width:75%;margin-left: 10px;padding-right: 10px;">Fifth Title goes Here</span></li>
     </ul>
   </div>
-  <div class="container sub">
-    <div class="div3"><img src="./img-11-04.jpg" alt="Image 1" style="width: 100%; height: 100%;"></div>
+  <div class="container " id="div2">
+    <div class="div3"><img src="./img-11-04.jpg" alt="Image 1" style="width: 100%; height: 100%; margin-left: 20px;"></div>
     <div class="div1" style="margin-top: 60px;margin-right: 50px;">
       <span style="width: 100%;">You can <strong>easily</strong> change<span style="color: #0264cf;"> Font Awesome icons</span> in HTML code.Feel free to modify and use this layout for websites,Nunc elementum enim nec justo ornare mollis.sed facilisiz uma vitae lectus maximus,
       scelerisque aliquet ligula cursus.</span>
@@ -198,7 +222,7 @@ font-size: 2rem;
     </div>
   </div>
 </div>
-<div  class="container" style="line-height: 2rem; margin-top: 100px;">
+<div  class="container" style="line-height: 2rem; margin-top: 100px; justify-content: center;">
   <div style="border-top: 2px  solid #0264cf;border-bottom: 2px  solid #0264cf;border-right: 1px  solid #0264cf;border-left: 1px  solid #0264cf; margin: 15px;">
     <div style="margin: 30px;"><h1 style="color: #0264cf;font-size: 1.8rem;margin: 8px;font-weight: 500;">Etiam bibendum enim</h1>
       <p ><em>Nam tortor lacus, fringilla nec quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</em></p><br>
